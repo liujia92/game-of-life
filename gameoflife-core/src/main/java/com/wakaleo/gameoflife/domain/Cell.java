@@ -26,6 +26,7 @@ public enum Cell {
     }
 
     public String getSymbol() {
+        System.out.println("Cell getSymbol test");
         return symbol;
     }
 }
